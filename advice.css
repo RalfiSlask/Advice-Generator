@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #202733;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.main {
+    position: relative;
+}
+
+.advice-section {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-container {
+    width: 343px;
+    height: 347px;
+    background-color: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-header {
+  font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 3.45714px;
+    color: #53FFAA;
+    margin-top: 40px;
+}
+
+.advice {
+    margin-top: 24px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.257143px;
+    color: #CEE3E9;
+    width: 295px;
+}
+
+.line {
+    margin-top: 24px;
+    position: absolute;
+    top: 360px;
+}
+
+.svg-mobile {
+    display: block;
+}
+
+.svg-desktop {
+    display: none;
+}
+
+.button-advice {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #53FFAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 435px;
+}
+
+.button-advice:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 40px #53FFAA;
+}
+
+@media screen and (min-width: 600px) {
+    .advice-section {
+        margin-top: 223px;
+    }
+    
+    .advice-container {
+        width: 540px;
+        height: 364px;
+        box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+        border-radius: 10px;
+    }
+    
+    .advice-header {
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 4.08571px;
+        color: #53FFAA;
+        margin-top: 48px;
+    }
+    
+    .advice {
+        margin-top: 24px;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: -0.3px;
+        width: 444px;
+    }
+    
+    .line {
+        position: absolute;
+        top: 450px;
+        margin-top: 40px;
+    }
+
+    .svg-mobile {
+        display: none;
+    }
+
+    .svg-desktop {
+        display: block;
+    }
+
+    .button-advice {
+        margin-top: 40px;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        top: 515px;
+    }
+}
